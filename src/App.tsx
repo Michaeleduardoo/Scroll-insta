@@ -6,8 +6,8 @@ import Carousel from "./components/Carousel/page";
 import Inter from "./components/Inter/page";
 
 function App() {
-  const [activeIndex, setActiveIndex] = useState<number>(1); // Start at the second image
-  const totalImages = 6; // Total number of images
+  const [activeIndex, setActiveIndex] = useState<number>(1); 
+  const totalImages = 6; 
 
   const handlePaginationClick = (index: number) => {
     setActiveIndex(index);
